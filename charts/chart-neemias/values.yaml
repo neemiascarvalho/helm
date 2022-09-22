@@ -36,9 +36,19 @@ securityContext: {}
   # runAsNonRoot: true
   # runAsUser: 1000
 
+livenessProbe:
+  httpGet:
+    path: /
+    port: http
+readinessProbe:
+  httpGet:
+    path: /
+    port: http
+
 service:
   type: ClusterIP
   port: 80
+  targetPort: 3000
 
 ingress:
   enabled: false
