@@ -4,5 +4,9 @@ description: Meu primeiro chart
 type: application
 version: 0.1.0
 appVersion: "1.16.0"
-icon: https://w1.pngwing.com/pngs/542/732/png-transparent-tshirt-text-logo-line-unisex-angle-nginx-symbol-thumbnail.png
+icon: https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/nginx-512.png
 #icon: file://../../
+dependencies:
+  - name: grafana
+    repository: https://grafana.github.io/helm-charts
+    version: 6.33.1
