@@ -1,1 +1,1 @@
-# helm
+# Repositório padrão para charts helm
