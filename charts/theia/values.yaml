@@ -40,6 +40,10 @@ service:
       path: /
       port: http
 
+configMap:
+  data:
+    
+
 ingress:
   enabled: true
   className: "nginx"
